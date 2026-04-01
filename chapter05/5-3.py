@@ -1,7 +1,7 @@
 i = 0
-while i < 21:
+while i < 100:
     i += 1
-    if i % 3 == 0:
-        print("★", end=' ')
+    if i % 2 == 0:
+        print("★")
         continue
-    print(i,end=' ')
+    print(i)
