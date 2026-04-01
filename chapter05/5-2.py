@@ -1,5 +1,5 @@
 i = 1
-while < 20:
+while i < 20:
     print(i)
     if i == 7:
         break
